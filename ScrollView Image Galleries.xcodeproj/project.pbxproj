@@ -23,7 +23,7 @@
 		9283D7DE1ECA27FF00F5F8E5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		9283D7DF1ECA27FF00F5F8E5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		9283D7E21ECA27FF00F5F8E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9283D7E41ECA27FF00F5F8E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9283D7E41ECA27FF00F5F8E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "ScrollView Image Galleries/Assets.xcassets"; sourceTree = "<group>"; };
 		9283D7E71ECA27FF00F5F8E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9283D7E91ECA27FF00F5F8E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -44,6 +44,7 @@
 			children = (
 				9283D7D71ECA27FF00F5F8E5 /* ScrollView Image Galleries */,
 				9283D7D61ECA27FF00F5F8E5 /* Products */,
+				9283D7E41ECA27FF00F5F8E5 /* Assets.xcassets */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,12 +59,9 @@
 		9283D7D71ECA27FF00F5F8E5 /* ScrollView Image Galleries */ = {
 			isa = PBXGroup;
 			children = (
-				9283D7DB1ECA27FF00F5F8E5 /* AppDelegate.h */,
-				9283D7DC1ECA27FF00F5F8E5 /* AppDelegate.m */,
 				9283D7DE1ECA27FF00F5F8E5 /* ViewController.h */,
 				9283D7DF1ECA27FF00F5F8E5 /* ViewController.m */,
 				9283D7E11ECA27FF00F5F8E5 /* Main.storyboard */,
-				9283D7E41ECA27FF00F5F8E5 /* Assets.xcassets */,
 				9283D7E61ECA27FF00F5F8E5 /* LaunchScreen.storyboard */,
 				9283D7E91ECA27FF00F5F8E5 /* Info.plist */,
 				9283D7D81ECA27FF00F5F8E5 /* Supporting Files */,
@@ -74,6 +72,8 @@
 		9283D7D81ECA27FF00F5F8E5 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				9283D7DB1ECA27FF00F5F8E5 /* AppDelegate.h */,
+				9283D7DC1ECA27FF00F5F8E5 /* AppDelegate.m */,
 				9283D7D91ECA27FF00F5F8E5 /* main.m */,
 			);
 			name = "Supporting Files";
